@@ -1,101 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-	
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, inital-scale=1">
 	<meta name="description" content="">
 	<meta name="author" content="">
-
     <title>Complete Pest Management Services</title>
-
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
 	<!-- jQuery library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-
 	<!-- Latest compiled JavaScript -->
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-		
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>	
 	<!-- Custom CSS -->
 	<link href="css/style.css" rel="stylesheet">
-	
 	<!--fb icon-->
 	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-    
     <!-- Animation library -->
     <link href="css/animations.css" rel="stylesheet">
-	
 	<!-- Custom Fonts -->
 	<script src="https://use.typekit.net/wbu1awm.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>    
 </head
 <body>
-
     <!-- Navigation -->
     <nav class="navbar navbar-inverse" role="navigation" style="background-image:url(banner.jpg);background-repeat:no-repeat;background-position: center">
-		<div class="container">
+		<div class="container" style="position:relative">
 			<div class="row">
-				<div class="col-md-2">
-					<h5>PHD/556</h5>
-					<!--Booking Button-->
-					<a href="#" class="btn header-btn" type="button" style="vertical-align:bottom">Book Online
-					</a>
-				</div>
-				<div class="col-md-4">
+				<div class="col-md-12">
+                    <div>
+                        <h5>PHD/556</h5>
+                        <!--Booking Button-->
+                        <div id="bottom-left">
+                        <a href="booking.html" class="btn header-btn" type="button">Book Online
+                        </a>
+                        </div>
+                    </div>
 					<!--Logo-->
-					<img src="logo.svg" style="position:absolute;z-index:20">
+					<img src="logo.svg" style="position:absolute;z-index:10">
 					<div class="animatedParent">
-					<div class="animated growIn">
-					<img src="logo.svg" style="z-index:10">
-					</div>
+                        <div class="animated growIn">
+                            <img src="logo.svg" style="z-index:20">
+                        </div>
 					</div>
 					<img src="title.svg">
-				</div>
-				<div class="col-md-6">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="dropdown" style="text-align:right">
-								<!--Menu Button-->
-								<button class="btn menu-btn dropdown-toggle" type="button" data-toggle="dropdown">MENU
-								</button>
-								<ul class="dropdown-menu dropdown-menu-right" style="opacity:.9;background-color:#333333">
-									<li><a href="#">Pricing</a></li>
-									<li><a href="#">Book Online</a></li>
-									<li class="divider"></li>
-									<li><a href="#">Termites</a></li>
-									<li><a href="#">Ants</a></li>
-									<li><a href="#">Bees</a></li>
-									<li><a href="#">Wasps</a></li>
-									<li><a href="#">Rodents</a></li>
-									<li><a href="#">Cockroaches</a></li>
-									<li><a href="#">Mosquitos</a></li>
-									<li><a href="#">Beetles</a></li>
-									<li><a href="#">Spiders</a></li>
-									<li><a href="#">Silverfish & More...</a></li>
-									<li class="divider"></li>
-									<li><a href="#">FAQ</a></li>
-									<li><a href="#">About Us</a></li>
-									<li><a href="#">Contact Us</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-md-12">
-							<a href="#"><i class="fa fa-facebook-square" style="font-size:36px;color:#f6ee20;float:right;padding:5px"></i></a>
-                            <a href="#"<i class="fa fa-google-plus-square" style="font-size:36px;color:#f6ee20;float:right;padding:5px"></i></a>
-                            <a href="#"<i class="fa fa-linkedin-square" style="font-size:36px;color:#f6ee20;float:right;padding:5px"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
+						<div id="top-right" class="dropdown">
+							<!--Menu Button-->
+							<button class="btn menu-btn dropdown-toggle" type="button" data-toggle="dropdown">MENU
+							</button>
+							<ul class="dropdown-menu dropdown-menu-right" style="opacity:.9;background-color:#333333">
+							    <li><a href="pricing.html">Pricing</a></li>
+								<li><a href="booking.html">Book Online</a></li>
+								<li class="divider"></li>
+								<li><a href="termites.html">Termites</a></li>
+								<li><a href="ants.html">Ants</a></li>
+								<li><a href="bees.html">Bees</a></li>
+								<li><a href="wasps.html">Wasps</a></li>
+								<li><a href="rodents.html">Rodents</a></li>
+								<li><a href="cockroaches.html">Cockroaches</a></li>
+								<li><a href="mosquitoes.html">Mosquitoes</a></li>
+								<li><a href="beetles.html">Beetles</a></li>
+								<li><a href="spiders.html">Spiders</a></li>
+								<li><a href="others.html">Silverfish & More...</a></li>
+								<li class="divider"></li>
+								<li><a href="faq.html">FAQ</a></li>
+                                <li><a href="about.html">About Us</a></li>
+					           <li><a href="contact.html">Contact Us</a></li>
+					       </ul>
+					   </div>
+                    <div id="bottom-right">
+                        <a href="#"><i class="fa fa-facebook-square" style="font-size:36px;color:#f6ee20;float:right;padding:5px"></i></a>
+                        <a href="#"<i class="fa fa-google-plus-square" style="font-size:36px;color:#f6ee20;float:right;padding:5px"></i></a>
+                        <a href="#"<i class="fa fa-linkedin-square" style="font-size:36px;color:#f6ee20;float:right;padding:5px"></i></a>
+                    </div>
+			     </div>
+            </div>
 		</div>
         <!-- /.container -->
     </nav>
-	
     <!-- Page Content -->
-    
     <div class="container">
         <!--Row 1 Open-->
         <div class="row">
@@ -166,31 +150,25 @@
             </div>
 			<div class="col-md-4">
                 <div class="jumbotron">
-				
-				<h3>Price stuff</h3>
-				<p>stuff</p>
-                <a class="btn btn-primary btn-large jumbo-btn" href="contact.html">Call Us!</a>
+                    <h3>Price stuff</h3>
+                    <p>stuff</p>
+                    <a class="btn btn-primary btn-large jumbo-btn" href="contact.html">Call Us!</a>
                 </div>
             </div>
         </div>
-        <!--Row 1 Close-->
-  
     </div>
     <!--close Container-->
-	   
 <!-- Footer -->
 <footer class="footer-style">
-        <div class="row">
-            <div class="col-lg-12">	
-                <br>
-                <p2 style="text-align: center">Copyright &copy; Complete Pest Management Services 2016.</p2>
-				<p2 style="text-align: center">All rights reserved.</p2>					
-            </div>
+    <div class="row">
+        <div class="col-lg-12">	
+        <br>
+        <p2 style="text-align: center">Copyright &copy; Complete Pest Management Services 2016.</p2>
+		<p2 style="text-align: center">All rights reserved.</p2>					
         </div>
+    </div>
 </footer>
-
     <!-- Animation script -->
 	<script src="js/css3-animate-it.js"></script>
-
 </body>
 </html>

@@ -6,6 +6,27 @@ html {
 	color: #e0e0e0;
 }
 
+#bottom-right
+{
+	right: 0;
+	bottom: 0;
+	position: absolute;
+}
+
+#bottom-left
+{
+	left: 0;
+	bottom: 0;
+	position: absolute;
+}
+
+#top-right
+{
+	right: 0;
+	top: 0;
+	position: absolute;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -29,7 +50,6 @@ body {
     font-size: 1.5em;
 	background-image: url("Background.jpg");
 	background-repeat: repeat;
-    
 }
 
 footer {
@@ -92,34 +112,34 @@ ul#inline li a {
 }
 
 .menu-btn:hover {
-   background-color: #f6ee20;
-   border-color: #fCf426;
-   color: #1E4D68 !important;
+    background-color: #f6ee20;
+    border-color: #fCf426;
+    color: #1E4D68 !important;
 }
 
 .header-btn:hover {
-   background-color: #f6ee20;
-   border-color: #fCf426;
-   color: #1E4D68 !important;
+    background-color: #f6ee20;
+    border-color: #fCf426;
+    color: #1E4D68 !important;
 }
 
 .jumbo-btn:hover {
-   background-color: #f6ee20;
-   border-color: #fCf426;
-   color: #1E4D68 !important;
+    background-color: #f6ee20;
+    border-color: #fCf426;
+    color: #1E4D68 !important;
 }
 
 .btn:active {
-box-shadow: none;
-   background-color: #D6CE00;
-   border-color: #D6CE00;
-   color: #1E4D68 !important;
+    box-shadow: none;
+    background-color: #D6CE00;
+    border-color: #D6CE00;
+    color: #1E4D68 !important;
 }
 
 .btn:active:focus {
-   background-color: #D6CE00;
-   border-color: #D6CE00;
-   color: #1E4D68 !important;
+    background-color: #D6CE00;
+    border-color: #D6CE00;
+    color: #1E4D68 !important;
 }
 /* /.Button styles */
 
@@ -187,32 +207,32 @@ box-shadow: none;
 
 /* Copy & Lists */
 p {
- line-height: 1.5rem;
- margin-top: 1.5rem;
- margin-bottom: 0;
- font-size: 1.25em;
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    font-size: 1.25em;
 }
 
 p2 {
- line-height: 1.5rem;
- margin-top: 1.5rem;
- margin-bottom: 0;
- font-size: .5em;
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    font-size: .5em;
 }
 
 ul, ol {
- margin-top: 1.5rem;
- margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
     color: #e0e0e0
 }
 ul li, ol li {
- font-family: "source-code-pro",sans-serif;
- line-height: 1.5rem;
+    font-family: "source-code-pro",sans-serif;
+    line-height: 1.5rem;
     color: #e0e0e0
 }
 ul ul, ol ul, ul ol, ol ol {
- margin-top: 0;
- margin-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
     color: #e0e0e0
 }
 
@@ -221,57 +241,56 @@ ul ul, ol ul, ul ol, ol ol {
 }
 
 blockquote {
- line-height: 1.5rem;
- margin-top: 1.5rem;
- margin-bottom: 1.5rem;
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
     color: #e0e0e0
 }
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
- /* Change heading typefaces here */
- font-family: "cronos-pro-display",sans-serif;
- margin-top: 1.5rem;
- margin-bottom: 0.2em;
- line-height: 1.5rem;
+    /* Change heading typefaces here */
+    font-family: "cronos-pro-display",sans-serif;
+    margin-top: 1.5rem;
+    margin-bottom: 0.2em;
+    line-height: 1.5rem;
 }
 h1 {
- font-size: 4.242rem;
- line-height: 4.5rem;
- margin-top: 3rem;
+    font-size: 4.242rem;
+    line-height: 4.5rem;
+    margin-top: 3rem;
 }
 h2 {
- font-size: 2.828rem;
- line-height: 3rem;
- margin-top: 3rem;
+    font-size: 2.828rem;
+    line-height: 3rem;
+    margin-top: 3rem;
 }
 h3 {
- font-size: 1.414rem;
+    font-size: 1.414rem;
 }
 h4 {
- font-size: 0.707rem;
+    font-size: 0.707rem;
 }
 h5 {
- font-size: 0.4713333333333333rem;
+    font-size: 0.4713333333333333rem;
 }
 h6 {
- font-size: 0.3535rem;
+    font-size: 0.3535rem;
 }
 /* Tables */
 table {
- margin-top: 1.5rem;
- border-spacing: 0px;
- border-collapse: collapse;
- text-align: center;
+    margin-top: 1.5rem;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    text-align: center;
 }
 table td, table th {
- padding: 0;
- line-height: 33px;
+    padding: 0;
+    line-height: 33px;
 }
 table.center {
     margin-left:auto; 
     margin-right:auto;
 }
-  
 /* Code blocks */
 code {
  vertical-align: bottom;
